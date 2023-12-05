@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Montserrat:wght@300;500;700&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+:root{
+    --Principal: Istok Web, sans-serif;
+    --Secundario: Montserrat, sans-serif;
+    --Naranjo:#fc4a1a;
+    --Rojo:#f00;
+    --Gris:#63636b;
+    --Gris2:#1f2732;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --Degradado: -webkit-linear-gradient(-9deg, #fc4a1a 0%, #f7b733 97%);
+    --DegradadoH: -webkit-linear-gradient(-9deg, #f7b733 0%, #fc4a1a 97%);
+    --DegradadoAmarillo: linear-gradient(rgba(247, 183, 51, 0.90), rgba(247, 183, 51, 0.90)), transparent url(http://wp.dreamitsolution.net/softech/wp-admin/admin-ajax.php?action=kc_get_thumbn&type=filter_url&id=%2Fwp-content%2Fuploads%2F2020%2F07%2Fcover3.jpg) center center/cover no-repeat scroll;
+    --DegradadoNaranja: linear-gradient( rgba(252, 74, 26, 0.80), rgba(252, 74, 26, 0.80)), transparent url(http://wp.dreamitsolution.net/softech/wp-admin/admin-ajax.php?action=kc_get_thumbn&type=filter_url&id=%2Fwp-content%2Fuploads%2F2020%2F07%2Fcover1.jpg) center center/cover no-repeat scroll;
+}
+body{
+font-family: var(--Principal);
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+}
+.imgresponsive{
+width: 100%;
+display: block;
+}
+.imgresponsiveF{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    }
+.look{
+border: 1px red solid;
+}
+.ancho{
+padding-top: 10px;
+padding-bottom: 10px;
+max-width: 1200px;
+margin: auto;
+}
+.titles{
+font-family: var(--Secundario);
+font-size: 35px;
+font-weight: 600;
+}
+.icone1{
+    font-size: 25px;
+    color: var(--Naranjo);
+}
+.black{
+    color: black;
+}
+.naranjos{
+    color: var(--Naranjo);
+}
+.white{
+    color: white;
+}
+.Titulos3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 10px;
+    font-family: var(--Secundario);
+  }
