@@ -783,12 +783,15 @@ nav ul.abrirmenu {
     align-items: center;
 }
 .modal_ctn{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background: white;
     position: relative;
     border: 12px black solid;
     animation: neonColorChange 5s linear infinite;
+}
+.total{
+    height: 100%;
 }
 @keyframes neonColorChange {
   0% {
@@ -813,8 +816,8 @@ nav ul.abrirmenu {
 .logo_ciber{
     width: 500px;
     position: absolute;
-    top: -200px;
-    left: -200px;
+    top: -150px;
+    left: -300px;
 }
 
 .ripaza {
