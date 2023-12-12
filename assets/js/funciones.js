@@ -44,9 +44,9 @@ $(".acordeon_title").click(function () {
 /*Funcio modal*/
 $(document).ready(function () {
   // Mostrar el modal después de 2 segundos
-  //setTimeout(function () {
-  // $("#modales").css("display", "flex");
-//}, 5000);
+  setTimeout(function () {
+  $("#modales").css("display", "flex");
+}, 15000);
 
   // Cerrar el modal al hacer clic en el icono de cierre
   $("#close").on("click", function () {
