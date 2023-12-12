@@ -123,6 +123,7 @@ nav ul.abrirmenu {
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .abc {
   background: var(--DegradadoAmarillo);
   width: 250px;
@@ -287,6 +288,9 @@ nav ul.abrirmenu {
   line-height: 27px;
   color: white;
 }
+
+
+
 .SB2 {
   background: linear-gradient(rgba(252, 74, 26, 0.88), rgba(247, 183, 51, 0.91)),
     transparent
