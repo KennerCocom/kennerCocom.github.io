@@ -46,7 +46,7 @@ $(document).ready(function () {
   // Mostrar el modal después de 2 segundos
   setTimeout(function () {
   $("#modales").css("display", "flex");
-}, 1000);
+}, 10000);
 
   // Cerrar el modal al hacer clic en el icono de cierre
   $("#close").on("click", function () {
