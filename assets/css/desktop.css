@@ -474,6 +474,7 @@ nav ul.abrirmenu {
   z-index: 9;
   opacity: 0%;
   transition: all 0.5s;
+  cursor: pointer;
 }
 .slideF_cnt {
   background: -webkit-linear-gradient(-9deg, #fc4a1a 0%, #f7b733 97%);
@@ -785,10 +786,11 @@ nav ul.abrirmenu {
     display: none;
     justify-content: center;
     align-items: center;
+   
 }
 .modal_ctn{
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     background: white;
     position: relative;
     border: 12px black solid;

@@ -272,7 +272,7 @@
       /*SECTION MODAL*/
       .modal_ctn{
         width: 80%;
-        height: 65%;
+        height: 290px;
         background: none;
         border: 10px black solid;
         animation: neonColorChange 5s linear infinite;
